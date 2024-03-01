@@ -1,0 +1,60 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: azure;
+    color: aliceblue;
+    padding: 5%;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    background-image: url(sakurajima.jpg);
+    background-size: cover;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.block {
+    padding: 25px;
+    color: black;
+}
+
+body {
+    background-image: url(Gif.gif);
+    background-position: center; /* Centrar horizontalmente */
+    background-repeat: no-repeat; /* Evitar la repetición */
+    background-size:contain; /* Ajustar tamaño para cubrir el área visible manteniendo la calidad */
+    height: 100vh; /* Opcional: Asegurar que el fondo cubra la altura completa del viewport */
+}
+.Container2{
+    display: flex;
+}
+.inf{
+    margin-left: 5px;
+}
+#location{
+    font-weight: bold;
+    font-size: 25px;
+}
+.block:first-child{
+    background-image: url(MaiG.jpg);
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

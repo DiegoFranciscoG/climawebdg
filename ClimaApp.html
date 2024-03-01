@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clima App</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="clima.css">
+    </head>
+    <body onload="onLoad()">
+        <div id="container" clas="mai">
+            <div class ="block">
+            <div class="inf">
+               <h3>Location</h3>
+                <div id="location">.......</div>
+            </div>
+            <div id="description"></div>
+            <div id="data"></div>
+        </div>
+        <div class="block">
+            <div class="Conteiner2">
+                <h3>Temperature</h3>
+                <div id="temperature"></div>
+                <h3>TemperatureMaxima</h3>
+                <div id="temperaturemaxima"></div>
+                <h3>TemperatureMinima</h3>
+                <div id="temperatureminima"></div>
+            </div>
+            <div class="Conteiner2">
+                <h3>Pressure</h3>
+                <div id="pressure"></div>
+            </div>
+            <div class="Container2">
+                <p>
+
+                </p>
+                Humidity
+                <div id="humidity"></div>
+            </div>
+        </div>
+        <div id="loader"class="loader">Loading.........</div>
+        <script src="climas.js"></script>
+    </body>
+</html>
